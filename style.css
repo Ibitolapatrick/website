@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+body {
+     
+    font-family: 'Croissant One', cursive;
+    background-color: rgb(250, 235, 238);
+    /* text-align: left; */
+}
+
+
+
+
+#navbar {
+    display: flex;
+    background-color:rgb(252, 252, 252);
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 40%;                       
+    font-family: 'Croissant One', cursive;
+    
+    
+    /* esto es el layout de los tres */
+} 
+
+#navbar a {
+    color: rgb(0, 0, 0);
+    font-family: 'Croissant One', cursive;
+    /* esto es el color de la letra de los tres */
+}
+
+
+#navbar a:hover {
+    color: rgb(202, 121, 121);
+    font-family: 'Croissant One', cursive;
+}
+
+h1{
+    color: rgb(17, 16, 16);
+    font-size: 60px;
+    font-family: 'Croissant One', cursive;
+    /* titulo */
+}
+
+h2{ 
+    color: rgb(179, 83, 83);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    /* mensajito en contact */
+    font-family: 'Croissant One', cursive;
+}
+h3{
+    color: rgb(192, 30, 30);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* mensajito about us */
+    font-family: 'Croissant One', cursive;
+}
+
+#navbar2{
+    display: flex;
+    color: rgb(255, 69, 146);
+    background-color: pink;
+    justify-content: center;
+    font-family: 'Croissant One', cursive;
+    /* esto es "inspiration" */
+}
+#navbarrr {
+    display: flex;
+    background-color:rgb(252, 252, 252);
+    justify-content: space-around;
+    color: black;
+    font-family: 'Croissant One', cursive;
+}
+    
+#navbarrr a:hover {
+    color:rgb(202, 121, 121); 
+    font-family: 'Croissant One', cursive;
+}
+
+
+
+
+p{
+    color: rgb(202, 121, 121)
+    font-family: 'Croissant One', cursive;}
+
+
+img{
+    width: 35%;
+    margin-top: 0%;
+    margin-left: 30%;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+
+    
+#ordernow a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 250, 250);
+    border-style: solid;
+    /* height: vh;
+    width: %; */
+    justify-content: space-around;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    position: absolute;  
+    left: 48%;                        
+    top: 40%;                         
+    transform: translate(-50%, -50%); 
+}
+
+
+#prices a{
+    width: 50%;
+}
+
+#journals {
+    /* display: flex; */
+    background-color: rosybrown;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+#afterorder a{
+color: brown;
+}
+#logo {
+    width: 50%;
+    /* margin-right: 50%; */
+    margin-left: 25%;
+   
+}
+
+#social {
+    display: flex;
+    color: rgb(216, 114, 131);
+    font-size: 20px;   
+        
+        
+        /* esto es el layout de los tres */
+ }
+
+#links a {
+    /* display: flex; */
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+#links a:hover {
+    color: rgb(255, 124, 179);
+    
+
+/* ############## */
+}
+#plant1price {
+    display: flex;
+    /* background-color: rosybrown; */
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+#firstprice {
+    display: flex;
+    color: rosybrown;
+    font-size: 20px;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: column;
+    left: 15%;                        
+    top: 60%;                         
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    /* titulo del precio del primero */
+}
+#a{
+    display: flex;
+    color: rgb(255, 25, 0);
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-style: solid;
+    width: 3%;
+    /* margin-bottom: 40px; */
+    flex-direction: column;
+    margin-top: 10%;
+    left: 20%;                        
+    top: 47%; 
+    /* transform: translate(-50%, -20%);  */
+    position: absolute;
+    text-align: start;                        
+    font-family: 'Times New Roman', Times, serif;
+    /* el precio del primero */
+}
+
+#secondprice {
+    display: flex;
+    color: rosybrown;
+    font-size: 20px;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: row;
+    right: 40%;                        
+    top: 60%;                         
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#b{
+    display: flex;
+    color: rgb(255, 25, 0);
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-style: solid;
+    width: 10%;
+    /* margin-bottom: 40px; */
+    flex-direction: column;
+    margin-top: 50%;
+    right: 50%;                        
+    top: 47%; 
+    /* transform: translate(-50%, -20%);  */
+    position: absolute;
+    text-align: start;   
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+#thirdprice{
+    display: flex;
+    color: rosybrown;
+    font-size: 20px;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: row;
+    right: 15%;                        
+    top: 60%;                         
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#c{
+    display: flex;
+    color: rgb(255, 25, 0);
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-style: solid;
+    width: 34%;
+    /* margin-bottom: 40px; */
+    flex-direction: column;
+    margin-top: 10%;
+    right: 30%;                        
+    top: 47%; 
+    /* transform: translate(-50%, -20%);  */
+    position: absolute;
+    text-align: start;  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Bouquet1price {
+    display: flex;
+    /* background-color: rosybrown; */
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#priceflower1 {
+    display: flex;
+    color: rosybrown;
+    font-size: 20px;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: column;
+    left: 15%;                        
+    top: 60%;                         
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    /* titulo del precio del primero */
+}
+#a{
+    display: flex;
+    color: rgb(255, 25, 0);
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-style: solid;
+    width: 2.5%;
+    /* margin-bottom: 40px; */
+    flex-direction: column;
+    margin-top: 10%;
+    left: 20%;                        
+    top: 47%; }
+
+#priceflower2 {
+    display: flex;
+    color: rosybrown;
+    font-size: 20px;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: COLUM;
+    right: 44%;                        
+    top: 60%;                         
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+#b{
+    display: flex;
+    color: rgb(255, 25, 0);
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-style: solid;
+    width: 30%;
+        /* margin-bottom: 40px; */
+    flex-direction: column;
+    margin-top: 10%;
+    right: 35%;                        
+    top: 97%; 
+        /* transform: translate(-50%, -20%);  */
+    position: absolute;
+    text-align: start;   
+    font-family: 'Times New Roman', Times, serif;  
+    }
+
+
+
+#priceflower3{
+    display: flex;
+    color: rosybrown;
+    font-size: 20px;
+    border-style: solid;
+    justify-content: space-around;
+    flex-direction: row;
+    right: 15%;                        
+    top: 60%;                         
+    text-align: center;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+#c{
+    display: flex;
+    color: rgb(255, 25, 0);
+    background-color: aliceblue;
+    justify-content: space-around;
+    border-style: solid;
+    width: 25%;
+        /* margin-bottom: 40px; */
+    flex-direction: column;
+    margin-top: 10%;
+    right: 30%;                        
+    top: 47%; 
+        /* transform: translate(-50%, -20%);  */
+    position: absolute;
+    text-align: start;  
+    font-family: 'Times New Roman', Times, serif;
+    }
